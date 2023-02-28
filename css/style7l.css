@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+}
+.block {
+  width: 300px;
+  min-height: 460px;
+  border: 1px solid #e8e8e8;
+  text-align: center;
+}
+.title {
+  width: 140px;
+  height: 18px;
+  font-size: 16px;
+  margin: 30px 80px;
+}
+.price {
+  display: inline;
+  width: 120px;
+  height: 36px;
+  font-size: 36px;
+  color: #5ba2a9;
+  margin: 10px;
+}
+.currency {
+  display: inline;
+  width: 120px;
+  height: 18px;
+}
+.dicreption {
+  width: 200px;
+  height: 115px;
+  margin: 50px 50px;
+}
+.order {
+  display: inline-block;
+  width: 180px;
+  height: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 2px solid #e8e8e8;
+  font-size: 16px;
+}

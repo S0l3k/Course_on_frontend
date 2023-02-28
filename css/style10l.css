@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "MuseoCyrl-700", serif;
+  src: url("../fonts/MuseoCyrl-700.woff"), format(woff), 
+    url("../fonts/MuseoCyrl-700.woff2"), format(woff2);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Roboto", serif;
+  color: #202020;
+}
+/* Шапка */
+.header {
+  background-color: #f1f1f1;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
+  padding: 20px;
+}
+.logo {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.nav-link {
+  color: #202020;
+  font-size: 14px;
+  font-weight: 400px;
+  margin-left: 11px;
+  margin-right: 11px;
+  text-decoration: none;
+}
+.login {
+  color: #202020;
+  font-size: 14px;
+  font-weight: 400px;
+  text-decoration: none;
+}
+
+/* Главная секцая */
+.hero {
+  padding-top: 60px;
+  padding-bottom: 70px;  
+}
+.hero-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.hero-image {
+  margin-right: 120px;
+}
+.author {
+  display: block;
+  font-size: 24px;
+  font-weight: 400px;
+  margin-bottom: 22px;
+}
+.title {
+  font-family: "MuseoCyrl-700", serif;
+  font-style: 54px;
+  font-weight: 700px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.subtitle {
+  display: block;
+  font-style: 24px;
+  font-weight: 400px;
+  margin-bottom: 48px;
+  line-height: 29px;
+}
+.info {
+  min-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 46px;
+}
+.info-text {
+  font-style: 16px;
+  font-weight: 400;
+  flex-basis: 50%;
+  margin-bottom: 16px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.pricetag{
+  font-size: 55px;
+  font-weight: 400;
+  margin-right: 64px;
+}
+.favorites {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+.button {
+  font-style: 16px;
+  font-weight: 700;
+  padding: 22px 55px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+.button-primary {
+  background-color: #f89c02;
+  color: #ffff;
+  margin-right: 20px;
+}
+.button-outline {
+  border: 2px solid #f89c02;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* О книге */
+.about-container{
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.about-book {
+  max-width: 454px;
+  flex-shrink: 0;
+  margin-right: 126px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.about {
+  background-color: #f1f1f1;
+  padding: 100px 0px;
+}
+.about-author {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ffff;
+  min-width: 552px;
+  border-radius: 10px;
+  border: 1px solid #f3f3f3;
+  box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+  padding: 68px 53px;
+}
+.about-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+.author-avatar {
+  margin-right: 16px;
+  margin-bottom: 24px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.author-link {
+  text-decoration: none;
+  color: #202020;
+  font-size: 16px;
+  font-weight: 400;
+}
+.about-text {
+  flex-basis: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Читатели */
+.readers {
+  max-width: 1140px;
+  margin: auto;
+}
+.act {
+  width: 115px;
+  height: 115px;
+  object-fit: cover;
+}
+.readers-h {
+  margin-top: 88px;
+  margin-bottom: 55px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.actors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
