@@ -203,3 +203,37 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+/* Подвал */
+.footer {
+  background-color: #f1f1f1;
+  padding: 60px 0px 90px 0px;
+}
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-title {
+  font-style: 32px;
+  font-weight: 700;
+  color: inherit;
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+.list-item {
+  margin-bottom: 16px;
+}
+.requisites {
+  margin-right: 165px;
+}
+.information {
+  margin-right: 165px;
+}
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
