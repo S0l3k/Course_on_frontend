@@ -16,6 +16,11 @@ body {
 /* Шапка */
 .header {
   background-color: #f1f1f1;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 .header-container {
   display: flex;
@@ -45,6 +50,7 @@ body {
 
 /* Главная секцая */
 .hero {
+  margin-top: 60px;
   padding-top: 60px;
   padding-bottom: 70px;  
 }
@@ -54,8 +60,19 @@ body {
   display: flex;
   align-items: center;
 }
-.hero-image {
+.image-block {
+  position: relative;
   margin-right: 120px;
+}
+.sale-label {
+  font-style: 18px;
+  font-weight: 500;
+  position: absolute;
+  background-color: #c93535;
+  color: #ffff;
+  padding: 12px 17px;
+  right: 0;
+  top: 23px;
 }
 .author {
   display: block;
@@ -188,9 +205,10 @@ h2 {
   margin: auto;
 }
 .act {
-  width: 115px;
-  height: 115px;
+  width: 165px;
+  height: 165px;
   object-fit: cover;
+  margin-bottom: 30px;
 }
 .readers-h {
   margin-top: 88px;
@@ -202,6 +220,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 70px;
 }
 
 /* Подвал */
@@ -236,4 +255,14 @@ h2 {
 .footer-link {
   text-decoration: none;
   color: inherit;
+}
+.to-top {
+  box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+  border-radius: 4px;
+  border: 1px solid #eeee;
+  background-color: #fff;
+  padding: 19px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
