@@ -373,4 +373,94 @@ h2 {
     font-size: 16px;
   }
   }
+
+  @media (max-width: 768px) {
+    .header-container,
+    .hero-container,
+    .about-container,
+    .readers,
+    .footer-container {
+      min-width: 560px;
+      max-width: 560px;
+    }
+    .nav {
+      display: none;
+    }
+    .image-block {
+      min-width: 100%;
+      margin-bottom: 60px;
+    }
+    .hero-container {
+      flex-wrap: wrap;
+    }
+    .requisites {
+      margin-right: 40px;
+      margin-bottom: 60px;
+    }
+    .information {
+      margin-right: 0;
+    }
+  }
+
+@media (max-width: 576px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers,
+  .footer-container {
+    max-width: 95%;
+  }
+  .author {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .title {
+    font-size: 36px;
+    margin-bottom: 19px;
+  }
+  .subtitle {
+    font-style: 20px;
+    margin-bottom: 30px;
+  }
+  .info {
+    flex-wrap: wrap;
+  }
+  .info-text {
+    flex-basis: 100%;
+    margin-bottom: 19px;
+  }
+  .buttons {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .button-primary {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .about-book {
+    margin-bottom: 70px;
+  }
+  .about-author {
+    padding: 54px 44px;
+  }
+  .about-text {
+    font-size: 14px;
+  }
+  .author-avatar {
+    width: 64px;
+    height: 64px;
+  }
+  .requisites, 
+  .information,
+  .contacts {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-bottom: 36px;
+  }
+  .footer-title {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
 }
