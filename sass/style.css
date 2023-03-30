@@ -335,6 +335,23 @@ template {
   margin: auto;
   margin-left: 108px;
 }
+.navbar-bottom {
+  background-color: #0A223D;
+}
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 31px 0px;
+}
+.navbar-menu__link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+}
 
 .search {
   display: flex;
