@@ -4,6 +4,8 @@
 
 body {
   font-family: "Mulish", sans-serif;
+  background-color: #F5FAFE;
+  color: #333333;
 }
 
 .container {
@@ -418,4 +420,66 @@ template {
 }
 .breadcrumb-list__link {
   text-decoration: none;
+  color: #333;
+}
+
+.hotel {
+  padding-top: 23px;
+  padding-bottom: 70px;
+}
+.hotel-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hotel-info__offer {
+  margin-left: 14px;
+  margin-top: 4px;
+}
+.hotel-name {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+.hotel-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hotel-description {
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.stars {
+  flex-basis: 100%;
+}
+
+.offer {
+  font-size: 10px;
+  line-height: 13px;
+  padding: 4px 9px;
+  background-color: #EC1F46;
+  border-radius: 3px;
+  color: white;
+}
+
+.rating {
+  max-width: 65px;
+  min-height: 45px;
+  color: white;
+  background-color: #EC1F46;
+  border-radius: 3px;
+  text-align: center;
+}
+.rating__text {
+  font-size: 8px;
+  line-height: 10px;
+}
+.rating__counter {
+  font-size: 14px;
+  line-height: 18px;
 }/*# sourceMappingURL=style.css.map */
