@@ -482,4 +482,34 @@ template {
 .rating__counter {
   font-size: 14px;
   line-height: 18px;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+}
+.slider-button--next {
+  right: 18px;
+  background-image: url(../image/arrow-next.svg);
+}
+.slider-button--prev {
+  left: 18px;
+  background-image: url(../image/arrow-prev.svg);
 }/*# sourceMappingURL=style.css.map */
