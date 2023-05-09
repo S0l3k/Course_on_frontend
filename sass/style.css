@@ -542,4 +542,79 @@ template {
   padding: 27px;
   background-color: #0A223D;
   flex-wrap: wrap;
+  color: #F5FAFE;
+  align-items: center;
+}
+.booking__info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  margin-bottom: 10px;
+}
+.booking__callcenter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+  max-width: 295px;
+  height: 25px;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  width: 88px;
+  height: 59px;
+  flex-direction: column;
+}
+.price__start-price {
+  font-size: 10px;
+  font-weight: 400;
+}
+.price__price-tag {
+  font-size: 24px;
+  font-weight: 800;
+}
+.price__description {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.room-info {
+  display: flex;
+  flex-direction: column;
+  width: 81px;
+  height: 40px;
+}
+.room-info__guest {
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.room-info__room {
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+
+.callcenter__fast-number {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.phone__number {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.button {
+  height: 45px;
+  width: 295px;
+  background-color: #EC1F46;
+  border-radius: 4px;
+  color: #F5FAFE;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
