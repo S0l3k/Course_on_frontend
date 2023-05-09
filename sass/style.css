@@ -556,7 +556,7 @@ template {
   display: flex;
   justify-content: space-between;
   margin-bottom: 17px;
-  max-width: 295px;
+  min-width: 295px;
   height: 25px;
   align-items: center;
 }
@@ -604,10 +604,12 @@ template {
   font-size: 18px;
   font-weight: 600;
 }
-
-.phone__number {
+.callcenter__phone {
+  display: flex;
+  width: 86px;
   font-size: 18px;
   font-weight: 600;
+  justify-content: space-between;
 }
 
 .button {
@@ -617,4 +619,20 @@ template {
   border-radius: 4px;
   color: #F5FAFE;
   border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.map-container {
+  min-width: 347px;
+  height: 213px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.info-and-map {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
