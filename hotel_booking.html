@@ -29,6 +29,7 @@
           <form action="#" class="search navbar-search">
             <input
               type="text"
+              name="search"
               class="search__input"
               placeholder="Search Location"
             />
@@ -200,7 +201,15 @@
               <button class="button booking__button">View Other Options</button>
             </div>
             <!-- /.booking -->
-            <div class="map-container"></div>
+            <div class="map-container">
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A927e43152cb3ef890bbe2ce2f6e216f5a5ff96a76dd586eaf1f40ad128806a4f&amp;source=constructor"
+                width="347"
+                height="213"
+                frameborder="1"
+                style="border: solid 1px black"
+              ></iframe>
+            </div>
             <!-- /.map-container -->
           </div>
           <!-- /.info-and-map -->
@@ -208,6 +217,24 @@
         <!-- /.hotel-grid -->
       </div>
       <!-- /.container -->
+    </section>
+    <section class="newsletter">
+      <div class="newsletter-container">
+        <h2 class="newsletter-title">
+          subscribe to our
+          <span class="newsletter-title__subscribe">Newsletter</span>
+        </h2>
+        <form action="#" class="subscribe newsletter-subscribe">
+          <input
+            type="text"
+            name="subscribe"
+            class="subscribe__input"
+            placeholder="Your email address"
+          />
+          <button class="subscribe__button">Send</button>
+        </form>
+      </div>
+      <!-- /.newsletter-container -->
     </section>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
