@@ -826,4 +826,72 @@ template {
   font-size: 12px;
   line-height: 160%;
   margin: auto;
+}
+
+.activities {
+  padding: 60px 0 98px 0;
+}
+.activities-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000;
+}
+.activities-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 255px;
+  position: relative;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+}
+.card_image {
+  position: absolute;
+  border-radius: 6px;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F5FAFE;
+  margin: auto;
+  z-index: 1;
+}
+.card_button {
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  padding: auto;
+  border: none;
+  background-color: #EC1F46;
+  color: #F5FAFE;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: pointer;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
