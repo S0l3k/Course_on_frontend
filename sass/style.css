@@ -850,6 +850,9 @@ template {
   width: 255px;
   height: 255px;
   position: relative;
+  overflow: hidden;
+  padding: 24px 26px;
+  align-items: flex-start;
 }
 .card::before {
   content: "";
@@ -859,11 +862,12 @@ template {
   top: 0;
   bottom: 0;
   background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+  z-index: -1;
 }
 .card_image {
   position: absolute;
   border-radius: 6px;
-  z-index: -1;
+  z-index: -2;
   left: 0;
   right: 0;
   top: 0;
@@ -878,13 +882,12 @@ template {
   line-height: 20px;
   color: #F5FAFE;
   margin: auto;
-  z-index: 1;
+  margin-top: auto;
+  margin-bottom: 18px;
 }
 .card_button {
-  width: 100px;
-  height: 30px;
   border-radius: 4px;
-  padding: auto;
+  padding: 7px 22px;
   border: none;
   background-color: #EC1F46;
   color: #F5FAFE;
@@ -893,5 +896,4 @@ template {
   font-size: 12px;
   line-height: 16px;
   cursor: pointer;
-  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
