@@ -13,6 +13,35 @@ body {
   margin: auto;
 }
 
+.input {
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 0 23px;
+  height: 50px;
+}
+
+.message {
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 18px 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.button {
+  max-width: 160px;
+  min-height: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 18px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -986,33 +1015,77 @@ template {
   list-style: none;
 }
 .footer__input {
-  background-color: #fff;
-  border-radius: 4px;
-  border: none;
-  padding: 0 23px;
-  height: 50px;
   margin-bottom: 15px;
   flex-basis: 48%;
 }
 .footer__message {
-  background-color: #fff;
-  border-radius: 4px;
-  border: none;
-  padding: 18px 23px;
   flex-basis: 100%;
   margin-bottom: 22px;
 }
-.footer__button {
-  max-width: 160px;
-  min-height: 50px;
+.footer__info {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  padding: 18px;
+  color: #BDBDBD;
 }
-.footer__info {
-  ont-style: normal;
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 143, 223, 0.39);
+  z-index: 100;
+}
+.modal__dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 478px;
+  padding: 33px 88px;
+  background-color: #0A223D;
+  color: #F5FAFE;
+  z-index: 101;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+}
+.modal__close {
+  position: absolute;
+  top: 17px;
+  right: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+.modal__form {
+  max-width: 300px;
+}
+.modal__input {
+  width: 100%;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.modal__message {
+  width: 100%;
+  min-height: 123px;
+  margin-bottom: 15px;
+}
+.modal__button {
+  margin-right: 45px;
+}
+.modal__info {
+  font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;

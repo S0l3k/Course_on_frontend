@@ -502,7 +502,7 @@
               <textarea
                 cols="30"
                 rows="10"
-                class="footer__message"
+                class="message footer__message"
                 placeholder="Message"
               ></textarea>
               <button class="button footer__button" type="submit">Send</button>
@@ -515,6 +515,39 @@
       </div>
       <!-- /.container -->
     </footer>
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__dialog">
+        <a href="#" class="modal__close">
+          <img src="image/close.svg" alt="Icon: close" />
+        </a>
+        <h3 class="modal__title">Booking</h3>
+        <form action="" class="modal__form">
+          <input
+            type="text"
+            class="input modal__input"
+            placeholder="Your Full Name*"
+          />
+          <input
+            type="text"
+            class="input modal__input"
+            placeholder="Phone Number*"
+          />
+          <input type="text" class="input modal__input" placeholder="Email*" />
+          <textarea
+            cols="30"
+            rows="10"
+            class="message modal__message"
+            placeholder="Message"
+          ></textarea>
+          <button class="button modal__button" type="submit">Send</button>
+          <span class="modal__info">* Required Fields</span>
+        </form>
+      </div>
+      <!-- /.modal__dialog -->
+    </div>
+    <!-- /.modal -->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
