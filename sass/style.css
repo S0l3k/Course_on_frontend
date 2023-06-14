@@ -645,7 +645,7 @@ template {
 
 .button {
   height: 45px;
-  width: 295px;
+  min-width: 295px;
   background-color: #EC1F46;
   border-radius: 4px;
   color: #F5FAFE;
@@ -1038,6 +1038,12 @@ template {
   left: 0;
   background-color: rgba(0, 143, 223, 0.39);
   z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+.modal__overlay--visible {
+  visibility: visible;
+  opacity: 1;
 }
 .modal__dialog {
   position: fixed;
@@ -1050,6 +1056,12 @@ template {
   z-index: 101;
   border-radius: 8px;
   transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+}
+.modal__dialog--visible {
+  visibility: visible;
+  opacity: 1;
 }
 .modal__close {
   position: absolute;
@@ -1082,7 +1094,7 @@ template {
   margin-bottom: 15px;
 }
 .modal__button {
-  margin-right: 45px;
+  margin-right: 39px;
 }
 .modal__info {
   font-style: normal;
